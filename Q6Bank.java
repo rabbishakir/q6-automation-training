@@ -90,9 +90,9 @@ public class Q6Bank {
 				System.out.println(RED + "Error: Deposit must be greater than zero." + RESET);
 			}
 			
-			//deposit else block(deposit balance check)
+			//deposit balance check
 			else {
-			
+			    //saving deposit amount as balance
 				balance = depositAmount;
 				System.out.println("PIN setup complete. Balance: " + balance + " taka.");
 				
@@ -105,7 +105,7 @@ public class Q6Bank {
 			
 				//Pin verification
 				// Ask user to enter PIN again
-				// If login PIN matches saved PIN, allow access
+				// If login PIN matches saved PIN, allow/grant access
 				// Else deny access
 				
 				System.out.print("Enter your PIN to access your account: ");
@@ -121,11 +121,9 @@ public class Q6Bank {
 					
 					//System.out.println();
 					
-					//System.out.println(RED + "--  Transaction Menu goes here --" + RESET);
-					
 					// Transaction Menu — Switch
 					// Show transaction menu
-					// Read user choice
+					// Read user choice as input
 					// Convert choice to uppercase
 					// Use switch to run selected option
 					
