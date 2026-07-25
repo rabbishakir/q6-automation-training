@@ -10,7 +10,6 @@ The repository root is intentionally simple:
 Each student has:
 
 - one permanent personal folder under `homework/`
-- one personal Git branch ending in `-dev` (except Sayed, whose personal branch still needs to be created)
 - a separate folder for every assignment
 
 ## Students
@@ -29,7 +28,7 @@ Each student has:
 | Rabia | [homework/rabia](homework/rabia) | `rabia-dev` |
 | Raisul | [homework/raisul](homework/raisul) | `raisul-dev` |
 | Sabrina | [homework/sabrina](homework/sabrina) | `sabrina-dev` |
-| Sayed Azad | [homework/sayed-azad](homework/sayed-azad) | Personal branch not created yet |
+| Sayed Azad | [homework/sayed-azad](homework/sayed-azad) | `azad-dev` |
 | Shishir | [homework/shishir](homework/shishir) | `shishir-dev` |
 | Zeny | [homework/zeny](homework/zeny) | `zeny-dev` |
 
