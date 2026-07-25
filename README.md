@@ -2,9 +2,14 @@
 
 This repository is the shared homework space for our Java and automation training.
 
+The repository root is intentionally simple:
+
+- `homework/` contains every student's permanent assignment folders.
+- `framework/` is reserved for the future shared automation framework.
+
 Each student has:
 
-- one permanent personal folder under `students/`
+- one permanent personal folder under `homework/`
 - one personal Git branch ending in `-dev` (except Sayed, whose personal branch still needs to be created)
 - a separate folder for every assignment
 
@@ -12,26 +17,26 @@ Each student has:
 
 | Student | Personal folder | Branch |
 |---|---|---|
-| Afia | [students/afia](students/afia) | `afia-dev` |
-| Azim | [students/azim](students/azim) | `azim-dev` |
-| Farhad | [students/farhad](students/farhad) | `farhad-dev` |
-| Fekir | [students/fekir](students/fekir) | `fekir-dev` |
-| Hasan | [students/hasan](students/hasan) | `hasan-dev` |
-| Irfan | [students/irfan](students/irfan) | `irfan-dev` |
-| Leila | [students/leila](students/leila) | `leila-dev` |
-| Mahmud | [students/mahmud](students/mahmud) | `mahmud-dev` |
-| Muntasir | [students/muntasir](students/muntasir) | `muntasir-dev` |
-| Rabia | [students/rabia](students/rabia) | `rabia-dev` |
-| Raisul | [students/raisul](students/raisul) | `raisul-dev` |
-| Sabrina | [students/sabrina](students/sabrina) | `sabrina-dev` |
-| Sayed Azad | [students/sayed-azad](students/sayed-azad) | Personal branch not created yet |
-| Shishir | [students/shishir](students/shishir) | `shishir-dev` |
-| Zeny | [students/zeny](students/zeny) | `zeny-dev` |
+| Afia | [homework/afia](homework/afia) | `afia-dev` |
+| Azim | [homework/azim](homework/azim) | `azim-dev` |
+| Farhad | [homework/farhad](homework/farhad) | `farhad-dev` |
+| Fekir | [homework/fekir](homework/fekir) | `fekir-dev` |
+| Hasan | [homework/hasan](homework/hasan) | `hasan-dev` |
+| Irfan | [homework/irfan](homework/irfan) | `irfan-dev` |
+| Leila | [homework/leila](homework/leila) | `leila-dev` |
+| Mahmud | [homework/mahmud](homework/mahmud) | `mahmud-dev` |
+| Muntasir | [homework/muntasir](homework/muntasir) | `muntasir-dev` |
+| Rabia | [homework/rabia](homework/rabia) | `rabia-dev` |
+| Raisul | [homework/raisul](homework/raisul) | `raisul-dev` |
+| Sabrina | [homework/sabrina](homework/sabrina) | `sabrina-dev` |
+| Sayed Azad | [homework/sayed-azad](homework/sayed-azad) | Personal branch not created yet |
+| Shishir | [homework/shishir](homework/shishir) | `shishir-dev` |
+| Zeny | [homework/zeny](homework/zeny) | `zeny-dev` |
 
 ## Folder structure
 
 ```text
-students/
+homework/
 └── your-name/
     └── assignments/
         ├── 01-java-basics/
@@ -73,7 +78,7 @@ If Git reports a merge conflict, stop and ask the instructor for help. Do not de
 
 ## Add homework
 
-1. Open your folder: `students/your-name/assignments/`
+1. Open your folder: `homework/your-name/assignments/`
 2. Open the correct assignment folder.
 3. Add your Java, Python, or other homework files there.
 4. Check what changed:
@@ -87,7 +92,7 @@ git status
 Replace the example message with a short description of your work.
 
 ```bash
-git add students/your-name/
+git add homework/your-name/
 git commit -m "Complete email sorter homework"
 git push origin YOUR-BRANCH
 ```
@@ -117,7 +122,7 @@ git pull origin YOUR-BRANCH
 git fetch origin
 git merge origin/main
 git status
-git add students/your-name/
+git add homework/your-name/
 git commit -m "Describe your homework"
 git push origin YOUR-BRANCH
 ```
