@@ -1,11 +1,12 @@
 # Q6 Automation Training
 
-This repository is the shared homework space for our Java and automation training.
+This repository is the shared homework and framework space for our Java and automation training.
 
-The repository root is intentionally simple:
+The repository root structure:
 
-- `homework/` contains every student's permanent assignment folders.
-- `framework/` is reserved for the future shared automation framework.
+- `framework/` - The shared Selenium automation framework (for all to use and improve)
+- `homework/` - Every student's personal assignment folders
+- Each student has their own personal folder under `homework/`
 
 Each student has:
 
@@ -45,6 +46,20 @@ homework/
 ```
 
 Always put homework inside your own folder. Do not edit another student's folder.
+
+## Framework
+
+The `framework/` folder contains the shared Selenium automation testing framework. All students can:
+- **Use** it as a reference and base for their learning
+- **Contribute** improvements and bug fixes
+- **Pull** the latest updates
+
+### Using the Framework
+
+1. The framework is available to all when you clone the repository
+2. Study the code in `framework/src/`
+3. Refer to it in your assignments
+4. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute improvements
 
 ## First time only: clone the repository
 
