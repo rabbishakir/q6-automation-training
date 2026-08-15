@@ -16,7 +16,11 @@ public class HomePageTestRunner {
 		
 		String username = ConfigReader.getConfigAValue("username");
 		System.out.println(username);
+		
+		Utility.writeData("username", "afia");
+		Utility.screenshotTake(bs.driver, "HomePage");
 		bs.quitDriver();
+		
 
 	}
 
