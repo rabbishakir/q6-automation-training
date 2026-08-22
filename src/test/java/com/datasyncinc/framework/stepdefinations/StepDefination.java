@@ -13,16 +13,17 @@ import io.cucumber.java.en.*;
 
 public class StepDefination {
 	
-	WebDriver driver;
+	WebDriver driver = BaseClass.getDriver();
 	LoginPageClass loginpage;
+	
 	
 	
 	
 	@Given("user is on the HMS login page")
 	public void user_is_on_the_hms_login_page() throws IOException {
 		
-		driver = BaseClass.initializeDriver(); 
 		loginpage = new LoginPageClass(driver); 
+		
 	}
 
 	@When("user enters a valid username")
