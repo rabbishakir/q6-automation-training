@@ -12,7 +12,7 @@ import com.datasyncinc.framework.utilities.ConfigReader;
 
 public class BaseClass {
 
-	static WebDriver driver;
+	static WebDriver driver;  
 
 	// we will create a method
 	// that will give us the driver instance
@@ -32,10 +32,19 @@ public class BaseClass {
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waitTime));
 		driver.manage().window().maximize();
-		driver.get(ConfigReader.getConfigAValue("url"));
+		driver.get(ConfigReader.getConfigAValue("url"));   
 		
 		return driver;
 	}
+	
+	
+	// we just need drive in another class?
+	
+	static WebDriver getDriver() {
+		return driver;
+	}
+	
+
 
 	public static void quitDriver() {
 		// if the driver is not null

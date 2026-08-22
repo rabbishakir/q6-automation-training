@@ -10,9 +10,12 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 			features = "src/test/resources/features",
-			glue = "com.datasyncinc.framework.stepdefinations",
+			glue = {
+					"com.datasyncinc.framework.stepdefinations", 
+					"com.datasyncinc.framework.hooks"
+					},
 			plugin = {"pretty", "html:target/cucumber-reports.html"},
-			tags = "@validloginTest"
+			tags = "@invalidLoginTest"
 		
 		)
 
