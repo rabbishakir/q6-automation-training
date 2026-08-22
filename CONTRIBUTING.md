@@ -1,6 +1,6 @@
 # Contributing to the Shared Framework
 
-Every student works on the same project in `framework/`, but each student commits through their own `-dev` branch.
+Every student works on the same Maven/Selenium framework project, but each student commits through their own `-dev` branch.
 
 ## Before you start
 
@@ -35,7 +35,7 @@ Do not commit:
 
 ```bash
 git status
-git add framework/
+git add .
 git commit -m "Add screenshot utility"
 git push origin YOUR-BRANCH
 ```

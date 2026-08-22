@@ -1,12 +1,13 @@
-# Q6 Automation Training — Shared Framework
+# Q6 Automation Training - Shared Framework
 
-This repository contains one shared Selenium automation framework. All students collaborate on the same project inside `framework/`.
+This repository contains one shared Selenium automation framework. The repository itself is the Maven/Selenium project.
 
 ## Repository structure
 
 ```text
 q6-automation-training/
-├── framework/          # Shared Maven/Selenium project
+├── pom.xml             # Maven project file
+├── src/                # Selenium framework source code
 ├── README.md           # Project overview
 ├── CONTRIBUTING.md     # Collaboration rules
 └── WORKFLOW.md         # Copy-and-paste Git commands
@@ -44,7 +45,7 @@ git fetch origin
 git merge origin/main
 ```
 
-Open `framework/` as the Maven project in Eclipse or IntelliJ.
+Open the repository folder as the Maven project in Eclipse or IntelliJ.
 
 ## Daily collaboration
 
@@ -57,11 +58,11 @@ git fetch origin
 git merge origin/main
 ```
 
-After changing files inside `framework/`:
+After changing framework files:
 
 ```bash
 git status
-git add framework/
+git add .
 git commit -m "Describe your framework change"
 git push origin YOUR-BRANCH
 ```

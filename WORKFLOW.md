@@ -12,7 +12,7 @@ git fetch origin
 git merge origin/main
 ```
 
-Open the `framework` folder as the Maven project.
+Open the repository folder as the Maven project.
 
 ## Every time before working
 
@@ -27,7 +27,7 @@ git status
 ## Save your framework change
 
 ```powershell
-git add framework/
+git add .
 git commit -m "Describe your framework change"
 git push origin YOUR-BRANCH
 ```
@@ -38,7 +38,7 @@ On GitHub, open a pull request from `YOUR-BRANCH` into `main`. Do not merge it y
 
 ## Important
 
-- Everyone collaborates inside `framework/`.
+- Everyone collaborates in this shared Maven/Selenium project.
 - Pull the latest `main` before starting.
 - Never commit real usernames or passwords.
 - Never push directly to `main`.
