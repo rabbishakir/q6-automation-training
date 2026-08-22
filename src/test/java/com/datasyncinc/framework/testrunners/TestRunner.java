@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 			features = "src/test/resources/features",
 			glue = "com.datasyncinc.framework.stepdefinations",
 			plugin = {"pretty", "html:target/cucumber-reports.html"},
-			tags = "@invalidLoginTest"
+			tags = "@validloginTest"
 		
 		)
 
