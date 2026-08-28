@@ -40,7 +40,7 @@ public class BaseClass {
 	
 	// we just need drive in another class?
 	
-	static WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
 	}
 	
