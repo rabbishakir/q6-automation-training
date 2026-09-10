@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageClass {
 	
-	
+	//adding comment here to test git commit and push to remote repository that is to github
 	WebDriver diver;  // declared it
 	
 	// page factory
